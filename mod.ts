@@ -12,7 +12,7 @@ export interface DownloadNpmPackagesOptions {
 	 * The path to the directory where the packages will be placed.
 	 * This defaults to ${cwd}/npm_packages/
 	 */
-	outputDir: string;
+	outputDir?: string;
 }
 
 export async function downloadNpmPackages({
